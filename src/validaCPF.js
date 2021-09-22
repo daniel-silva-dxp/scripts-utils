@@ -1,4 +1,4 @@
-const validaCpf = function (val) {
+function cpfValidation(val) {
   function CPF() {
     function r(r) {
       for (var t = null, n = 0; 9 > n; ++n)
@@ -45,4 +45,4 @@ const validaCpf = function (val) {
   } else {
     return true;
   }
-};
+}
